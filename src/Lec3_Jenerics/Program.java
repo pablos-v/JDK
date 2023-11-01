@@ -1,5 +1,7 @@
 package Lec3_Jenerics;
 
+import java.util.Arrays;
+
 public class Program {
     public static void main(String[] args) {
         TBOX<Animal> n1 = new TBOX<>();
@@ -13,8 +15,6 @@ public class Program {
 
         n1.setValue(new Cat("zxcv"));
         TBOX.printInfo(n1);
-
-
 
     }
 }

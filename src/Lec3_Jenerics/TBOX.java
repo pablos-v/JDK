@@ -20,7 +20,7 @@ public class TBOX<T> {
 //        System.out.println(animal);
 //    }
 
-    static void printInfo(TBOX<?> animal){
+    static void printInfo(TBOX<? super Animal> animal){
         System.out.println(animal);
     }
 
