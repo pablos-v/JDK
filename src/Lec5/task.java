@@ -10,7 +10,7 @@ public class task implements Runnable{
     }
 
     @Override
-    public void run() {
+    public synchronized void run() {
         while (www < 10000){
             www++;
             aaa++;
