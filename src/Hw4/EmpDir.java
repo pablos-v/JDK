@@ -12,8 +12,8 @@ public class EmpDir {
         this.employeeList = new ArrayList<>();
     }
 
-    public void add(int ID, String phoneNumber, String name, int experience) {
-        employeeList.add(new Employee(ID, phoneNumber, name, experience));
+    public void add(String phoneNumber, String name, int experience) {
+        employeeList.add(new Employee(phoneNumber, name, experience));
     }
 
     public List<Employee> findByExp(int exp) {

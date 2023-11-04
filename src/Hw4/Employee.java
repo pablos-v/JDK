@@ -1,26 +1,22 @@
 package Hw4;
 
 public class Employee {
+    //region Fields
     private int ID;
     private String phoneNumber;
     private String name;
     private int experience;
+    public static int idE = 0;
+    //endregion
 
-    public Employee(int ID, String phoneNumber, String name, int experience) {
-        this.ID = ID;
+    public Employee(String phoneNumber, String name, int experience) {
+        this.ID = ++idE;
         this.phoneNumber = phoneNumber;
         this.name = name;
         this.experience = experience;
     }
 
-    public int getID() {
-        return ID;
-    }
-
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
+    //region Setters-Getters
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -44,6 +40,7 @@ public class Employee {
     public void setExperience(int experience) {
         this.experience = experience;
     }
+    //endregion
 
     @Override
     public String toString() {
@@ -53,5 +50,9 @@ public class Employee {
                 ", name='" + name + '\'' +
                 ", experience=" + experience +
                 '}';
+    }
+
+    public int getID() {
+        return ID;
     }
 }

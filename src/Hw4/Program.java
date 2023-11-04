@@ -15,9 +15,9 @@ package Hw4;
 public class Program {
     public static void main(String[] args) {
         EmpDir dir = new EmpDir();
-        dir.add(1, "8800600", "Ivan", 42);
-        dir.add(2, "4545454", "Ivan", 3);
-        dir.add(3, "7777777", "Lola", 3);
+        dir.add( "8800600", "Ivan", 42);
+        dir.add( "4545454", "Ivan", 3);
+        dir.add( "7777777", "Lola", 3);
 
         System.out.println(dir);
         System.out.println(dir.findByExp(3));
