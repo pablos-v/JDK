@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3675da9a-6e79-499c-9596-d4bae23c19b6" name="Changes" comment="homework task done">
-      <change afterPath="$PROJECT_DIR$/src/Lec5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lec5/task.java" afterDir="false" />
+    <list default="true" id="3675da9a-6e79-499c-9596-d4bae23c19b6" name="Changes" comment="lec5 race condition experiment synchronized">
+      <change afterPath="$PROJECT_DIR$/src/Sem5/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sem5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sem5/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw4/EmpDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw4/EmpDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw4/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hw4/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hw4/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lec5/task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lec5/task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <recent name="Sem4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec5.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Hw4.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hw4.Program" />
       <module name="JDK" />
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lec2.MainWindow" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sem5.Main" />
       <module name="JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lec2.*" />
+          <option name="PATTERN" value="Sem5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lec5.Main" />
         <item itemvalue="Application.Hw4.Program" />
         <item itemvalue="Application.Sem4.Program" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.MainWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698856777871</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lec5 race condition experiment">
+      <created>1699119645452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699119645453</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lec5 race condition experiment synchronized">
+      <created>1699119915454</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699119915454</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +193,8 @@
     <MESSAGE value="experiments with generics" />
     <MESSAGE value="seminar tass done" />
     <MESSAGE value="homework task done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework task done" />
+    <MESSAGE value="lec5 race condition experiment" />
+    <MESSAGE value="lec5 race condition experiment synchronized" />
+    <option name="LAST_COMMIT_MESSAGE" value="lec5 race condition experiment synchronized" />
   </component>
 </project>

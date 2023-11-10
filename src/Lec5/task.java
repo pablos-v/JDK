@@ -10,10 +10,12 @@ public class task implements Runnable{
     }
 
     @Override
-    public synchronized void run() {
-        while (www < 10000){
-            www++;
-            aaa++;
+    public void run() {
+        synchronized (task.class) {
+            while (www < 10000){
+                www++;
+                aaa++;
+            }
         }
         System.out.println("aaa = " + www + " ccc = " + aaa);
     }
