@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Integer ccc = 0;
-task task = new task(ccc);
+        task task = new task(ccc);
         Thread t1 = new Thread(task);
         Thread t2 = new Thread(task);
         t1.start();

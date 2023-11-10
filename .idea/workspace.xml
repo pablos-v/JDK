@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3675da9a-6e79-499c-9596-d4bae23c19b6" name="Changes" comment="lec5 race condition experiment synchronized">
-      <change afterPath="$PROJECT_DIR$/src/Sem5/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sem5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sem5/MyThread.java" afterDir="false" />
+    <list default="true" id="3675da9a-6e79-499c-9596-d4bae23c19b6" name="Changes" comment="sem5 race condition deadlock">
+      <change afterPath="$PROJECT_DIR$/src/Sem5/task2/CommonResourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sem5/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sem5/task2/TreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sem5/task2/TreadB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lec5/task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lec5/task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lec5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lec5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +45,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Sem5.task2" />
       <recent name="Sem4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Sem5.task2.Main">
     <configuration name="Hw4.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hw4.Program" />
       <module name="JDK" />
@@ -87,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lec3_Jenerics.Program" />
-      <module name="JDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lec3_Jenerics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Sem4.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sem4.Program" />
       <module name="JDK" />
@@ -113,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sem5.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sem5.task2.Main" />
+      <module name="JDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sem5.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sem5.task2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lec5.Main" />
         <item itemvalue="Application.Hw4.Program" />
         <item itemvalue="Application.Sem4.Program" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699119915454</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sem5 race condition deadlock">
+      <created>1699633217035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699633217035</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +204,7 @@
     <MESSAGE value="homework task done" />
     <MESSAGE value="lec5 race condition experiment" />
     <MESSAGE value="lec5 race condition experiment synchronized" />
-    <option name="LAST_COMMIT_MESSAGE" value="lec5 race condition experiment synchronized" />
+    <MESSAGE value="sem5 race condition deadlock" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem5 race condition deadlock" />
   </component>
 </project>
